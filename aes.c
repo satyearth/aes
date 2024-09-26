@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <openssl/aes.h>
-#define AES_BLOCK_SIZE 16  // AES block size in bytes
+#define AES_BLOCK_SIZE 16 
 
 void aes_encrypt(const unsigned char *plaintext, int plaintext_len, unsigned char *key, unsigned char *ciphertext)
 {
